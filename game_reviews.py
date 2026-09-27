@@ -1,3 +1,20 @@
+import os
+from dotenv import load_detenv
+from question import questions
+
+
+load_detenv()
+admin_password =os.getenv("quiz_admin_password")
+open_admin=input("do u wnt to open admin mode?  yes/no")
+
+
+if open_admin.lower()=="yes"
+    enter_pass =input("enter admin password")
+    if enter_pass==admin_password:
+        print("admin hi")
+    else:
+        print("wrong pass")
+
 name = input("what is your name? ")
 
 if name:
