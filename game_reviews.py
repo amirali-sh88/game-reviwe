@@ -8,7 +8,7 @@ admin_password =os.getenv("quiz_admin_password")
 open_admin=input("do u wnt to open admin mode?  yes/no")
 
 
-if open_admin.lower()=="yes"
+if open_admin.lower()=="yes":
     enter_pass =input("enter admin password")
     if enter_pass==admin_password:
         print("admin hi")

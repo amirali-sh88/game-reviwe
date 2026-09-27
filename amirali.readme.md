@@ -1,4 +1,6 @@
 # Game Review Saver
+![static badge](https://img.shields.io/badge/python-3.12-blue
+)
 
 A simple game review program built with Python
 
@@ -15,7 +17,7 @@ A simple game review program built with Python
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
-
+- [ Screen shot](#screenshot)
 ## Features
 
 - Asks the user for their name
@@ -40,13 +42,19 @@ F:.
 │   game_reviews.txt
 
 ### File Description
-
-- `main.py` - Main file used to run the game review program
-- `question.py` - Stores the questions
-- `game_reviews.txt` - Stores game reviews
-- `.env.example` - Shows the environment variables needed by the project
-- `README.md` - Project documentation
-
+| file | description|
+| ---| ---|
+| `main.py` | Main file used to run the game review program
+| `question.py` | Stores the questions
+| `game_reviews.txt` | Stores game reviews
+| `.env.example` | Shows the environment variables needed by the project
+| `README.md` |Project documentation|
+| `pictures/` | stores project screen shot| 
+| `pictures/` | stores project screen shot| 
+| `pictures/` | stores project screen shot| 
+| `pictures/1` | stores project screen shot| 
+| `pictures/2` | stores project screen shot| 
+| `pictures/3` | stores project screen shot| 
 ## Requirements
 
 - Python 3
@@ -115,6 +123,26 @@ correct
 
 Your review was saved
 ```
+
+## screen shot
+
+
+### game
+![start game]
+()
+### quiz
+![quiz]
+()
+
+
+### final
+![final]
+()
+
+
+## demo
+! [quiz game demo]()
+
 ## Roadmap
 
 - [x] add multiple quiz question
